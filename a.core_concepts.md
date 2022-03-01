@@ -35,7 +35,7 @@ All other namespaces can be created as required.
 
 ### ResourceQuota
 
-[ResourceQuota](https://kubernetes.io/docs/concepts/policy/resource-quotas/) is a way to limit the resources that a namespace can use. 403 error messages are thrown when a resource is requested that exceeds the quota. For instance, you can limit compute resources like cpu and memory.
+[ResourceQuota](https://kubernetes.io/docs/concepts/policy/resource-quotas/) is a way to limit the resources that a namespace can use. 403 error messages are thrown when a resource is requested that exceeds the quota. For instance, you can limit compute resources like cpu and memory
 
 ### Create a namespace called 'mynamespace' and a pod with image nginx called nginx on this namespace
 
